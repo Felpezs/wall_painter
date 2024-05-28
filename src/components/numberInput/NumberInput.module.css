@@ -1,0 +1,13 @@
+@import "../../theme.css";
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: calc(var(--spacing) * 1.5);
+}
+.input-field {
+  border: 1px solid var(--gray300);
+  border-radius: calc(var(--spacing) * 1.5);
+  padding: var(--spacing);
+}

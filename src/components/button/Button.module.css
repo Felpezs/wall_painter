@@ -1,0 +1,17 @@
+@import "../../theme.css";
+
+.button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: var(--fontSize);
+  border-radius: var(--spacing);
+  color: var(--neutral50);
+  background-color: var(--neutral950);
+  padding: var(--spacing) calc(var(--spacing) * 3);
+  transition: background-color 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--neutral800);
+}

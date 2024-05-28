@@ -1,0 +1,16 @@
+@import "../../theme.css";
+
+.card {
+  min-width: 300px;
+  width: fit-content;
+  padding: calc(var(--spacing) * 2.5);
+  border-radius: calc(var(--spacing) * 1.5);
+  display: flex;
+  gap: var(--spacing);
+  flex-direction: column;
+  border: 2px solid var(--gray300);
+}
+
+.card-title {
+  font-size: calc(var(--font-size) * 2);
+}

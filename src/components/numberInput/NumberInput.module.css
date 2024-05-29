@@ -2,12 +2,37 @@
 
 .input {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: calc(var(--spacing) * 1.5);
+  flex-direction: column;
+  gap: calc(var(--spacing) * 0.5);
 }
+
+.input-label {
+  font-size: calc(var(--font-size) * 0.75);
+  color: var(--gray600);
+}
+
 .input-field {
   border: 1px solid var(--gray300);
-  border-radius: calc(var(--spacing) * 1.5);
+  border-radius: calc(var(--spacing) * 0.5);
   padding: var(--spacing);
+  transition: border 200ms ease-in-out;
+}
+
+.input-field:hover,
+.input-field:focus {
+  outline: none;
+  border: 1px solid var(--gray600);
+}
+
+.input-field.valid {
+  border: 1px solid var(--success);
+}
+
+.input-field.invalid {
+  border: 1px solid var(--error);
+}
+
+.input-error {
+  color: var(--error);
+  font-size: calc(var(--font-size) * 0.75);
 }

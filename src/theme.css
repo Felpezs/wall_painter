@@ -1,5 +1,12 @@
 :root {
   --spacing: 8px;
+  --neutral950: #0a0a0a;
+  --neutral800: #27272a;
+  --neutral50: #fafafa;
   --gray300: #d1d5db;
+  --gray400: ##9ca3af;
+  --gray600: #4b5563;
+  --success: green;
+  --error: red;
   --font-size: 1rem;
 }
